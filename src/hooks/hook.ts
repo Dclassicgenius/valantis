@@ -5,7 +5,7 @@ import { FilterParameter, Item } from "../types";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 
 const api = axios.create({
-  baseURL: "http://api.valantis.store:40000/",
+  baseURL: "https://api.valantis.store:40000/",
 });
 
 export const useAuth = (): string | null => {
